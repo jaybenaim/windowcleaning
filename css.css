@@ -75,7 +75,6 @@ small {
 }
 .secondH p { 
   height: 170px;
-  opacity: 1;
 }
 .secondH small { 
   opacity: 1; 
@@ -141,15 +140,19 @@ small {
       margin-bottom: 100px; 
   }
   .show-description p {
-    height: 240px;
+    height: 170px;
     color: red; 
+  }
+  .secondH p { 
+    height: 145px;
+  }
+  .dessertH p { 
+    height: 120px; 
   }
 }
 
-@media (max-width: 480px) { 
-    body { 
-        zoom: -20%; 
-    }
+@media (max-width: 400px) { 
+   
     .show-description p {
         height: 240px;
         color: blue; 
