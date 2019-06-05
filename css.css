@@ -1,183 +1,182 @@
 
 body {
-  font-family: helvetica, sans-serif;
-  margin: 0 auto;
-  padding-bottom: 100px; 
-  max-width: 1300px;
-  background: linear-gradient(0deg, rgba(0,200,250, 0.5), 200px, rgba(0,0,250, 0.2));
-}
-.box {
-  height: 600px;
-  background-size: cover;
-  position: relative;
-  margin: 50px 0 50px 0;
-  border-radius: 12px;
-}
-.top { 
-  background: url("https://www.thoroughcleanservices.co.uk/wp-content/uploads/2017/08/window-cleaning-services.jpg");
-  background-size: cover; 
-  border-radius: 15px; 
-  height: 600px;  
-} 
-h1 {
-  font-family: 'Dancing Script', cursive;
-  text-align: center;
-  font-size: 75px;
-  color: black;
-  margin: 60px 0 0 0;
-}
-h2 {
-  text-align: center;
-  color: black;
-  margin: 10px 0 70px 8px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 32px; 
-  float: left; 
-
-}
-p {
-  color: rgba(255,255,255,1);
-  background: black;
-  background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,.65));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1),  rgba(0,0,0,.65));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.65));
-  padding: 10px;
-  line-height: 28px;
-  text-align: justify;
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  height: 30px;
-  transition: height .7s;
-  -webkit-transition: height .7s;
-  -moz-transition: height .7s;
-  font-size: 24px; 
-  font-weight: bold; 
-}
-p:hover { 
-  cursor: pointer; 
-} 
-small {
-  opacity: 0;
-  display: block; 
-  font-size: 18px; 
-  font-weight: 300; 
-}
-.show-description p {
-  height: 200px;
-}
-.show-description small {
-  opacity: 1;
-}
-.secondH p { 
-  height: 170px;
-}
-.secondH small { 
-  opacity: 1; 
-}
-.dessertH p { 
-  height: 140px; 
-}
-.dessertH small { 
-  opacity: 1; 
-}
-.first{
-  background-image: url("data:image/jpeg;base64,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");
-  margin-top: 70px;
-  background-size: cover; 
-}
-.second{
-  background-image: url("http://www.westorangepowerwash.com/wp-content/uploads/2018/02/West-Orange-Powerwash-Pavers.jpg");
-}
-.dessert{
-  background-image: url("https://cdn.homeguide.com/assets/images/bg/thumbs/handyman.jpg");
-  margin-bottom: 100px; 
-  background-size: cover; 
-  background-position: center; 
-  
-}
-
-@media (min-width: 400px) {
-    .top { 
-        background-size: cover; 
-        background-repeat: no-repeat;
-        background-position: center; 
-        margin-left: 0; 
-        margin-right: 0;  
-        height: 600px; 
-        width: 100%; 
-        border-radius: 20px; 
-    }
-  h1 {
-    font-size: 40px;
-    line-height: 30px;
-    position: relative; 
-    top: 40px; 
-    left: -260px; 
-  }
-  h2 {
-    font-size: 30px;
-    position: relative; 
-    top: 40px;
-    left: 80px; 
+    font-family: helvetica, sans-serif;
+    margin: 0 auto;
+    padding-bottom: 100px; 
+    max-width: 1300px;
+    background: linear-gradient(0deg, rgba(0,200,250, 0.5), 200px, rgba(0,0,250, 0.2));
   }
   .box {
-    margin: 20px 12px 0 12px;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    margin: 50px 0 50px 0;
+    border-radius: 12px;
+  }
+  .top { 
+    background: url("https://www.thoroughcleanservices.co.uk/wp-content/uploads/2017/08/window-cleaning-services.jpg");
+    background-size: cover; 
+    border-radius: 15px; 
+    height: 600px;  
+  } 
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 75px;
+    color: black;
+    margin: 60px 0 0 0;
+  }
+  h2 {
+    text-align: center;
+    color: black;
+    margin: 10px 0 70px 8px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px; 
+    float: left; 
+  
   }
   p {
-    font-size: 20px;
-    line-height: 24px;
+    color: rgba(255,255,255,1);
+    background: black;
+    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,.65));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1),  rgba(0,0,0,.65));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.65));
+    padding: 10px;
+    line-height: 28px;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    transition: height .7s;
+    -webkit-transition: height .7s;
+    -moz-transition: height .7s;
+    font-size: 24px; 
+    font-weight: bold; 
   }
+  p:hover { 
+    cursor: pointer; 
+  } 
   small {
-    font-size: 16px;
-  }
-  .dessert { 
-      margin-bottom: 100px; 
+    opacity: 0;
+    display: block; 
+    font-size: 18px; 
+    font-weight: 300; 
   }
   .show-description p {
-    height: 170px; 
+    height: 200px;
+  }
+  .show-description small {
+    opacity: 1;
   }
   .secondH p { 
-    height: 145px;
+    height: 170px;
+  }
+  .secondH small { 
+    opacity: 1; 
   }
   .dessertH p { 
-    height: 120px; 
+    height: 100px; 
   }
-}
-/* iphone 8 */ 
-@media (max-width: 400px) { 
-    .top { 
-        background-size: cover; 
-        background-repeat: no-repeat;
-        background-position: center; 
-        height: 600px; 
-        border-radius: 20px; 
-        padding: 10px; 
+  .dessertH small { 
+    opacity: 1; 
+  }
+  .first{
+    background-image: url("http://www.protechpropertysolutions.co.uk/wp-content/uploads/2017/06/Eco-Friendly-Window-Cleaning.jpeg"); 
+    margin-top: 70px;
+    background-size: cover; 
+  }
+  .second{
+    background-image: url("http://www.westorangepowerwash.com/wp-content/uploads/2018/02/West-Orange-Powerwash-Pavers.jpg");
+  }
+  .dessert{
+    background-image: url("https://cdn.homeguide.com/assets/images/bg/thumbs/handyman.jpg");
+    margin-bottom: 100px; 
+    background-size: cover; 
+    background-position: center; 
+    
+  }
+  
+  @media (min-width: 400px) {
+      .top { 
+          background-size: cover; 
+          background-repeat: no-repeat;
+          background-position: center; 
+          margin-left: 0; 
+          margin-right: 0;  
+          height: 600px; 
+          width: 100%; 
+          border-radius: 20px; 
+      }
+    h1 {
+      font-size: 40px;
+      line-height: 30px;
+      position: relative; 
+      top: 40px; 
+      left: -260px; 
     }
-    h1 { 
-        font-size: 26px; 
-        position: relative; 
-        top: -30px; 
-        left: -55px; 
+    h2 {
+      font-size: 30px;
+      position: relative; 
+      top: 40px;
+      left: 80px; 
     }
-    h2 { 
-        display: none; 
+    .box {
+      margin: 20px 12px 0 12px;
     }
-    .box { 
-        margin-left: 20px; 
-        margin-right: 20px; 
+    p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    small {
+      font-size: 16px;
+    }
+    .dessert { 
+        margin-bottom: 100px; 
     }
     .show-description p {
-        height: 275px; 
+      height: 100px; 
+    }
+    .secondH p { 
+      height: 120px;
+    }
+    .dessertH p { 
+      height: 90px; 
+    }
+  }
+  /* iphone 8 */ 
+  @media (max-width: 400px) { 
+      .top { 
+          background-size: cover; 
+          background-repeat: no-repeat;
+          background-position: center; 
+          height: 600px;  
+          padding: 10px; 
       }
-      .secondH p { 
-        height: 190px;
+      h1 { 
+          font-size: 26px; 
+          position: relative; 
+          top: -30px; 
+          left: -55px; 
       }
-      .dessertH p { 
-        height: 220px; 
+      h2 { 
+          display: none; 
       }
-      .dessert { 
-          margin-bottom: 100px; 
+      .box { 
+          margin-left: 20px; 
+          margin-right: 20px; 
       }
-
-}
+      .show-description p {
+          height: 275px; 
+        }
+        .secondH p { 
+          height: 190px;
+        }
+        .dessertH p { 
+          height: 360px; 
+        }
+        .dessert { 
+            margin-bottom: 100px; 
+        }
+  
+  }
