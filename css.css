@@ -60,7 +60,7 @@ body {
   small {
     opacity: 0;
     display: block; 
-    font-size: 18px; 
+    font-size: 24px; 
     font-weight: 300; 
   }
   .show-description p {
@@ -129,19 +129,19 @@ body {
       line-height: 24px;
     }
     small {
-      font-size: 16px;
+      font-size: 24px;
     }
     .dessert { 
         margin-bottom: 100px; 
     }
     .show-description p {
-      height: 100px; 
+      height: 120px; 
     }
     .secondH p { 
       height: 120px;
     }
     .dessertH p { 
-      height: 90px; 
+      height: 130px; 
     }
   }
   /* iphone 8 */ 
@@ -150,7 +150,7 @@ body {
           background-size: cover; 
           background-repeat: no-repeat;
           background-position: center; 
-          height: 600px;  
+          height: 800px;  
           padding: 10px; 
       }
       h1 { 
@@ -166,11 +166,14 @@ body {
           margin-left: 20px; 
           margin-right: 20px; 
       }
+      small { 
+          font-size: 26px; 
+      }
       .show-description p {
-          height: 275px; 
+          height: 375px; 
         }
         .secondH p { 
-          height: 190px;
+          height: 290px;
         }
         .dessertH p { 
           height: 360px; 
@@ -178,5 +181,6 @@ body {
         .dessert { 
             margin-bottom: 100px; 
         }
+        
   
   }
