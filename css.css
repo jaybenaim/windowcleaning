@@ -2,7 +2,7 @@
 body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 1000px;
   background: linear-gradient(0deg, rgba(0,200,250, 0.5), 200px, rgba(0,0,250, 0.2));
 }
 .box {
@@ -101,9 +101,9 @@ small {
   
 }
 
-@media (max-width: 500px) {
+@media (min-width: 400px) {
     .top { 
-        background-size: 75% 75%; 
+        background-size: 100%; 
         background-repeat: no-repeat;
         background-position: center; 
         margin: 0 auto; 
@@ -114,14 +114,14 @@ small {
         border-radius: 20px; 
     }
   h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 30px;
     position: relative; 
     top: 40px; 
-    left: -70px; 
+    left: -260px; 
   }
   h2 {
-    font-size: 20px;
+    font-size: 30px;
     position: relative; 
     top: 40px;
     left: 80px; 
@@ -140,8 +140,7 @@ small {
       margin-bottom: 100px; 
   }
   .show-description p {
-    height: 170px;
-    color: red; 
+    height: 170px; 
   }
   .secondH p { 
     height: 145px;
@@ -150,11 +149,30 @@ small {
     height: 120px; 
   }
 }
-
 @media (max-width: 400px) { 
-   
-    .show-description p {
-        height: 240px;
-        color: blue; 
-      }
+    .top { 
+        background-size: 100%; 
+        background-repeat: no-repeat;
+        background-position: center; 
+        margin: 0 auto; 
+        margin-left: -40px; 
+        margin-right: 30px; 
+        padding-right: 30px; 
+        height: 300px; 
+        border-radius: 20px; 
+        padding: 10px; 
+    }
+    h1 { 
+        font-size: 26px; 
+        position: relative; 
+        top: -30px; 
+        left: -55px; 
+    }
+    h2 { 
+        display: none; 
+    }
+    .box { 
+        margin-left: 20px; 
+        margin-right: 20px; 
+    }
 }
