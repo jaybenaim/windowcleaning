@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+<title>Business Site</title> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+<link href="css.css" rel="stylesheet"> 
+
+
+</head>
+
+<body>
+    <div class="top" > 
+<h1>Jays's Window Cleaning</h1>
+<h2>Window cleaning & home services</h2>
+    </div>
+<div class="box first">
+  <p>Window Cleaning<br />
+  <small>We use a wax based product to leave your windows streak free and shine guarenteed. <br /> 
+      All tracks are cleaning when doing indoor and outdoor jobs. <br /> 
+      All paint drips from building or renovations, removed. <br /> 
+      The ablility to see that sky nice and clearly, acheived. <br /> 
+      Satification Guarenteed. 
+  </small></p>
+</div>
+
+<div class="box second">
+  <p>Powerwash Services<br />
+  <small>No job too big or small!<br /> 
+      From sidewalk chalk all over the the driveway,  
+      To mold build up on the outdoor walls                      <br /> 
+      Complete interlock sand & seal, we cover it all <br /> 
+      Call today to get a free estimate! <br /> 
+  </small></p>
+</div>
+  
+<div class="box dessert">
+  <p>Home Services<br />
+  <small>Any other issues around the house? 
+      Loose shingle? 
+      Eavestrough item removal?<br /> 
+      We're here to help let us know if there is something else you need a hand with and we will be glad to help.
+  </small></p>
+</div>
+
+<script>
+  $('.box').on('click', function() {
+      if (this.classList.contains("second")) { 
+      $(this).toggleClass('secondH');
+      } else if (this.classList.contains( "dessert")) { 
+      $(this).toggleClass('dessertH'); 
+      } else { 
+      $(this).toggleClass('show-description');
+      }
+
+
+  });
+</script>
+
+</body>
