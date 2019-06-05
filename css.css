@@ -140,5 +140,18 @@ small {
   .dessert { 
       margin-bottom: 100px; 
   }
+  .show-description p {
+    height: 240px;
+    color: red; 
+  }
 }
 
+@media (max-width: 480px) { 
+    body { 
+        zoom: -20%; 
+    }
+    .show-description p {
+        height: 240px;
+        color: blue; 
+      }
+}

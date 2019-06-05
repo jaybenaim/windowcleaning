@@ -4,9 +4,9 @@
       $(this).toggleClass('secondH');
       } else if (this.classList.contains( "dessert")) { 
       $(this).toggleClass('dessertH'); 
-      } else { 
+      } else if (this.classList.contains("first")) { 
       $(this).toggleClass('show-description');
-      }
+      }; 
 
 
   });
