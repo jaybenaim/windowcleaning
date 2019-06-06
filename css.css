@@ -145,7 +145,7 @@ body {
     }
   }
   /* iphone 8 */ 
-  @media (max-width: 400px) { 
+  @media (max-width: 380px) { 
       .top { 
           background-size: cover; 
           background-repeat: no-repeat;
