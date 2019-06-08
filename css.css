@@ -13,6 +13,9 @@ body {
     margin: 50px 0 50px 0;
     border-radius: 12px;
   }
+  .box:hover { 
+    cursor: pointer; 
+  }
   .top { 
     background: url("https://www.thoroughcleanservices.co.uk/wp-content/uploads/2017/08/window-cleaning-services.jpg");
     background-size: cover; 
@@ -21,18 +24,21 @@ body {
   } 
   h1 {
     font-family: 'Dancing Script', cursive;
-    text-align: center;
     font-size: 75px;
     color: black;
-    margin: 60px 0 0 0;
+    margin: 60px 0 0 15px;
+    float: left; 
   }
   h2 {
     text-align: center;
     color: black;
     margin: 10px 0 70px 8px;
     font-family: 'Dancing Script', cursive;
-    font-size: 32px; 
+    font-size: 34px; 
+    position: relative; 
+    top: 150px;  
     float: left; 
+    left: -600px; 
   
   }
   p {
@@ -42,11 +48,12 @@ body {
     background: -webkit-linear-gradient(bottom, rgba(0,0,0,1),  rgba(0,0,0,.65));
     background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.65));
     padding: 10px;
+    padding-left: 20px; 
     line-height: 28px;
     text-align: justify;
     position: absolute;
     bottom: 0;
-    margin: 0;
+    margin: 0; 
     height: 30px;
     transition: height .7s;
     -webkit-transition: height .7s;
@@ -64,40 +71,56 @@ body {
     font-weight: 300; 
   }
   .show-description p {
-    height: 200px;
+    height: 140px;
   }
   .show-description small {
     opacity: 1;
   }
   .secondH p { 
-    height: 170px;
+    height: 140px;
   }
   .secondH small { 
     opacity: 1; 
   }
-  .dessertH p { 
-    height: 100px; 
+  .servicesH p { 
+    height: 140px; 
   }
-  .dessertH small { 
+  .servicesH small { 
     opacity: 1; 
   }
   .first{
-    background-image: url("http://www.protechpropertysolutions.co.uk/wp-content/uploads/2017/06/Eco-Friendly-Window-Cleaning.jpeg"); 
+    background-image: url('https://i.imgur.com/EmNzuVh.jpg'); 
     margin-top: 70px;
     background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
   .second{
     background-image: url("http://www.westorangepowerwash.com/wp-content/uploads/2018/02/West-Orange-Powerwash-Pavers.jpg");
   }
-  .dessert{
-    background-image: url("https://cdn.homeguide.com/assets/images/bg/thumbs/handyman.jpg");
+  .picLeft { 
+    float: left;
+    left: 40px;  
+  }
+  .picRight { 
+    float: right; 
+    right: 40px;
+  }
+  .picRight, .picLeft { 
+    position: relative; 
+    border: 4px solid black; 
+    border-radius: 20%; 
+    top: 60px; 
+  }
+  .services {
     margin-bottom: 100px; 
-    background-size: cover; 
-    background-position: center; 
-    
+    padding-bottom: 80px; 
+  }
+  #contact { 
+    text-align: center; 
   }
   
-  @media (min-width: 400px) {
+  @media (max-width: 600px) {
       .top { 
           background-size: cover; 
           background-repeat: no-repeat;
@@ -113,16 +136,17 @@ body {
       line-height: 30px;
       position: relative; 
       top: 40px; 
-      left: -260px; 
+      left: -60px; 
     }
     h2 {
       font-size: 30px;
       position: relative; 
       top: 40px;
-      left: 80px; 
+      left: 0; 
     }
     .box {
       margin: 20px 12px 0 12px;
+      
     }
     p {
       font-size: 20px;
@@ -131,22 +155,24 @@ body {
     small {
       font-size: 24px;
     }
-    .dessert { 
+    .services  { 
         margin-bottom: 100px; 
+        padding: 0px; 
+    }
+    .picRight { 
+      display: none; 
     }
     .show-description p {
-      height: 120px; 
+      height: 220px; 
     }
     .secondH p { 
-      height: 120px;
+      height: 170px;
     }
-    .dessertH p { 
-      height: 130px; 
+    .servicesH p { 
+      height: 200px; 
     }
     #contact { 
       text-align: center; 
-    }
-    #phone {  
     }
     .num { 
       font-weight: 0; 
@@ -184,16 +210,20 @@ body {
       small { 
           font-size: 26px; 
       }
+      .picLeft { 
+        height: 300px; 
+        margin-right: 40px;  
+      }
       .show-description p {
           height: 375px; 
         }
         .secondH p { 
           height: 290px;
         }
-        .dessertH p { 
+        .servicesH p { 
           height: 360px; 
         }
-        .dessert { 
+        .services  { 
             margin-bottom: 100px; 
         }
         
