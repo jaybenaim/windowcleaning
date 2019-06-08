@@ -120,7 +120,7 @@ body {
     text-align: center; 
   }
   
-  @media (max-width: 900px) {
+  @media (max-width: 1050px) {
       .top { 
           background-size: cover; 
           background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body {
           border-radius: 20px; 
       }
     h1 {
-      font-size: 50px;
+      font-size: 40px;
       line-height: 30px;
       margin-left: 60px; 
     }
@@ -160,8 +160,8 @@ body {
         margin-bottom: 100px; 
         padding: 0px; 
     }
-    .picLeft { 
-      left: 200px;   
+    .picLeft {  
+       left: 250px;  
     }
     .picRight { 
       display: none; 
@@ -170,7 +170,7 @@ body {
       height: 270px; 
     }
     .secondH p { 
-      height: 230px;
+      height: 250px;
     }
     .servicesH p { 
       height: 270px; 
@@ -189,6 +189,7 @@ body {
     }
 
   }
+  
   /* iphone 8 */ 
   @media (max-width: 380px) { 
       .top { 
@@ -217,6 +218,9 @@ body {
       .picLeft { 
         height: 300px; 
         margin-right: 40px;  
+      }
+      .picRight { 
+        display: none; 
       }
       .show-description p {
           height: 375px; 
