@@ -143,6 +143,21 @@ body {
     .dessertH p { 
       height: 130px; 
     }
+    #contact { 
+      text-align: center; 
+    }
+    #phone {  
+    }
+    .num { 
+      font-weight: 0; 
+    }
+    .phone, .emailLabel { 
+      font-weight: bold;
+    }
+    h3 { 
+      text-align: center; 
+    }
+
   }
   /* iphone 8 */ 
   @media (max-width: 380px) { 
