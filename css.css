@@ -120,7 +120,7 @@ body {
     text-align: center; 
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 900px) {
       .top { 
           background-size: cover; 
           background-repeat: no-repeat;
@@ -141,6 +141,7 @@ body {
       position: relative; 
       top: 40px;
       left: 0; 
+      display: none; 
     }
     .box {
       margin: 20px 12px 0 12px;
@@ -148,7 +149,7 @@ body {
     p {
       font-size: 40px;
       line-height: 24px;
-      padding-bottom: 60px; 
+      padding-bottom: 30px; 
       line-height: 40px;  
     }
     small {
@@ -160,19 +161,19 @@ body {
         padding: 0px; 
     }
     .picLeft { 
-      margin-left: -22px; 
+      left: 200px;   
     }
     .picRight { 
       display: none; 
     }
     .show-description p {
-      height: 250px; 
+      height: 270px; 
     }
     .secondH p { 
-      height: 210px;
+      height: 230px;
     }
     .servicesH p { 
-      height: 250px; 
+      height: 270px; 
     }
     #contact { 
       text-align: center; 
