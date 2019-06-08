@@ -132,11 +132,9 @@ body {
           border-radius: 20px; 
       }
     h1 {
-      font-size: 40px;
+      font-size: 50px;
       line-height: 30px;
-      position: relative; 
-      top: 40px; 
-      left: -60px; 
+      margin-left: 60px; 
     }
     h2 {
       font-size: 30px;
@@ -146,30 +144,35 @@ body {
     }
     .box {
       margin: 20px 12px 0 12px;
-      
     }
     p {
-      font-size: 20px;
+      font-size: 40px;
       line-height: 24px;
+      padding-bottom: 60px; 
+      line-height: 40px;  
     }
     small {
-      font-size: 24px;
+      font-size: 30px;
+      margin-top: 10px; 
     }
     .services  { 
         margin-bottom: 100px; 
         padding: 0px; 
     }
+    .picLeft { 
+      margin-left: -22px; 
+    }
     .picRight { 
       display: none; 
     }
     .show-description p {
-      height: 220px; 
+      height: 250px; 
     }
     .secondH p { 
-      height: 170px;
+      height: 210px;
     }
     .servicesH p { 
-      height: 200px; 
+      height: 250px; 
     }
     #contact { 
       text-align: center; 
